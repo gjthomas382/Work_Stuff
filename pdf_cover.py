@@ -1,7 +1,7 @@
 import os
 from pypdf import PdfMerger, PdfReader, PdfWriter
 
-'''This tool is used to remove the front page from a PDF to use elsewhere as a Cover Sheet'''
+'''This tool is used to remove the front page from a specified PDF and append it to all PDFs in a specified directory'''
 
 cover = input("Drag and drop the cover file, and remove qoutes\n")
 folder = input(
